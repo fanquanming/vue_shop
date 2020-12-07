@@ -6,6 +6,9 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/css/global.css';
 import axios from 'axios'
+import tree from 'vue-table-with-tree-grid'
+Vue.component('tree', tree)
+
 //配置请求路径
 Vue.prototype.$http =axios
 //配置请求的根路径
