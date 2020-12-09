@@ -113,9 +113,7 @@
           >
           <!--静态属性表格-->
           <el-table :data="onlyTableData" border stripe>
-        
-           
-<!--展开行-->
+            <!--展开行-->
             <el-table-column type="expand">
               <template slot-scope="scope">
                 <!-- 循环渲染tag标签-->
